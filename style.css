@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/* base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: 'Bruno Ace SC', sans-serif;
+  line-height: 1.5;
+  cursor: default;
+}
+
+/* layout */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.d-block {
+  display: block;
+}
+
+/* flex */
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.row > * {
+  max-width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+.col-2 {
+  width: 16.666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333%;
+}
+
+.col-5 {
+  width: 41.666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333%;
+}
+
+.col-8 {
+  width: 66.666%;
+}
+
+/* component */
+.btn {
+  display: block;
+  width: fit-content;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00ffa3;
+}
+
+.btn-light {
+  background: #ffffff;
+}
+
+.btn-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* utilities */
+/* typography */
+.h1 {
+  font-size: 8rem;
+}
+
+.h2 {
+  font-size: 4rem;
+}
+
+.h3 {
+  font-size: 2.5rem;
+}
+
+.fs-1 {
+  font-size: 2rem;
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+/* color */
+.text-primary {
+  color: #00ffa3;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray {
+  color: #d1d1d1;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+/* sizing */
+.w-25 {
+  width: 25%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+/* spacing */
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.pt-18 {
+  padding-top: 4.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.ms-4 {
+  margin-left: 1rem;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.me-5 {
+  margin-right: 1.25rem;
+}
+
+.mx-n3 {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+/* background */
+.bg-overlay {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* border & shadow*/
+.border {
+  border: 1px solid #e3e3e3;
+}
+
+.shadow {
+  box-shadow: 4px 4px 4px 0px #00000014;
+}
+
+/* customize */
+.nav-text:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  border-bottom-color: #00ffa3;
+}
+
+.social-link {
+  border-radius: 2.5rem;
+  box-shadow: 4px 4px 8px 0px #00000014;
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  box-shadow: 0px 0px 16px 3px #9094ffe5;
+}
